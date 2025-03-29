@@ -27,3 +27,12 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+# IntelliJ
+.idea/
+*.iml
+out/
+
+# 기타 IDE
+.vscode/
+git add .gitignore
