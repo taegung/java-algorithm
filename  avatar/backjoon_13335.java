@@ -33,9 +33,8 @@ public class backjoon_13335 {
         int clear=0;  // clear 1로 바꾸면 트럭 다들어감 나오기만하면됨
          while(!q.isEmpty()){
              outtruck=q.poll();
-             if(outtruck==truck[N-1] && index==N){
-                 break;
-             }else if(index==N){// clear 1로 바꾸면 트럭 다들어감 나오기만하면됨
+
+             if(index==N){// clear 1로 바꾸면 트럭 다들어감 나오기만하면됨
                  clear=1;
                  break;
              }
