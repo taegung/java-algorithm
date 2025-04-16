@@ -36,7 +36,7 @@ public class backjoon_1966 {
             }
 
             Arrays.sort(Maxarr);
-            int Max=Maxarr[Maxindex];
+            int Max=Maxarr[Maxindex];//큐에 들어가 있는 문서의 중요도 최대값
 
             while(!q.isEmpty()){
                 int qnum=q.poll(); //큐 첫번째 값
