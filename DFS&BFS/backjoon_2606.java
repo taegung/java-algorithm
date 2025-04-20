@@ -31,7 +31,7 @@ public class backjoon_2606 {
 
         dfs(1);
 
-        int cnt=h1.size()-1; //1번노드 뺴고
+        int cnt=h1.size()-1;  //1번노드 뺴고
 
         System.out.println(cnt);
 
