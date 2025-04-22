@@ -82,7 +82,7 @@ public class backjoon_11779 {
                 if(digst[next.x]>digst[cur.x]+ next.cnt){
                     digst[next.x]=digst[cur.x]+ next.cnt;
                     pq.offer(new Node(next.x,digst[next.x]));
-                    beforenode[next.x]=cur.x;
+                    beforenode[next.x]=cur.x;  // 전에 어디 노드에서 왔는지 저장
 
                 }
             }
@@ -95,6 +95,7 @@ public class backjoon_11779 {
         int count=1;
 
         int arr[] =new int[nodenum+1]; // 노트 출력하면 역순 출력되서  배열 담을곳
+         // 이지랄 하지말고 연결리스트 쓰면됨 ㅠ
         int arrindex =0;
 
         while(nodestart!=start){  //역순으로 추적해서  출력
