@@ -112,7 +112,7 @@ public class backjoon_11779 {
             System.out.print(arr[i]+" ");
         }
 
-        System.out.println();
+
 
 
 
