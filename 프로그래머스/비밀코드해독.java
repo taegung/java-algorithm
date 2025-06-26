@@ -42,12 +42,10 @@ class Solution {
 
         }
 
-
-
         return answer;
     }
 
-    public void combine(int cnt,int idx,int n){
+    public void combine(int cnt,int idx,int n){ //완전탐색을 위한 조합
 
         if(cnt==n){
             List<Integer> temp = new ArrayList<>();
