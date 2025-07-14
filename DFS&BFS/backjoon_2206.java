@@ -32,7 +32,7 @@ public class backjoon_2206 {
         int N = Integer.parseInt(st.nextToken());
         int M = Integer.parseInt(st.nextToken());
         map = new int[N][M];
-        visited = new boolean[N][M][2]; // ★ 여기만 바뀜
+        visited = new boolean[N][M][2];
 
         for (int i = 0; i < N; i++) {
             String str = br.readLine();
